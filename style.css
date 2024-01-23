@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Urbanist&display=swap');
+
+
+*{
+    margin: 0px;
+    padding: 0;
+    font-family: 'Urbanist', sans-serif;box-sizing: border-box;
+}
+
+
+main{
+    display: flex;
+    gap: 21px;
+    justify-content: center;
+    padding: 20px;
+}
+
+.container{
+display: flex;
+flex-direction: column;
+gap: 20px;
+}
+.item{
+    width: 400px;
+    
+}
+.item>img{
+    height: 290px;
+    width: 400px;
+    display: block;
+    border-radius: 12px;
+}
+.item>span{
+    display: block;
+    color: gray;
+    font-size: 18px;
+    margin: 20px 0px;
+}
+.flex{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.flex>img{
+    height: 60px;
+}
+.flex p{
+    font-size: 20px;
+    color: rgba(0, 0, 255, 0.87);
+}
+.item h1{
+    line-height: 40px;
+    margin-bottom: 10px;
+}
+.item>p{
+    width: 300px;
+}
